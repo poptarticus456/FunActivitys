@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "938118986532",
+    "firebase_url": "https://fun-puns-and-activitys.firebaseio.com",
+    "project_id": "fun-puns-and-activitys",
+    "storage_bucket": "fun-puns-and-activitys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938118986532:android:e7e0810155c2a676",
+        "android_client_info": {
+          "package_name": "org.poptarticus.puns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938118986532-6cfvnfhu9608h7i6glstunbvmu0bhaid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.poptarticus.puns",
+            "certificate_hash": "961c84674181db9442cc5908c03e61d6039734a9"
+          }
+        },
+        {
+          "client_id": "938118986532-oo6d7896erirv1u7l68bog31826rl1pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDwmqyyGKSYdShmQxBBKnPXQft8h5Ffz8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938118986532-oo6d7896erirv1u7l68bog31826rl1pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
