@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fun Puns</string>
+    <string name="Image_Button">Button</string>
+    <string name="Fun_Activities">Fun Activities</string>
+
+    <string name="Puns">Fun Puns</string>
+    <string name="Fun_PunsButton">Show Another Fun Pun</string>
+
+    <string name="Fact">Fun Facts</string>
+    <string name="Fun_FactButton">Show Another Fun Fact</string>
+
+    <string name="IceBreakers">IceBreakers</string>
+    <string name="Fun_IceButton">Show Another Icebreaker</string>
+
+    <string name="DadJokes">Dad Jokes</string>
+    <string name="DadJokes_Button">Show Another Dad Joke</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+
+</resources>

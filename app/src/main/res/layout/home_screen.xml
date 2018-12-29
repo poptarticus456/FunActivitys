@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreenbackground"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/MenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:shadowColor="#000"
+        android:shadowDy="6"
+        android:shadowRadius="6"
+        android:text="@string/Fun_Activities"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/goPuns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/goIceBreakers"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/homebuttonselector"
+        android:elevation="12dp"
+        android:onClick="Punsgo"
+        android:text="@string/Puns"
+        android:textColor="#009BFF" />
+
+
+    <Button
+        android:id="@+id/goIceBreakers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/goFunFacts"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/homebuttonselector"
+        android:elevation="12dp"
+        android:onClick="IceBreakersgo"
+        android:text="@string/IceBreakers"
+        android:textColor="#009BFF" />
+
+
+    <Button
+        android:id="@+id/goFunFacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/homebuttonselector"
+        android:elevation="12dp"
+        android:onClick="FunFactsgo"
+        android:text="@string/Fact"
+        android:textColor="#009BFF" />
+
+</RelativeLayout>
